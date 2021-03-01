@@ -71,7 +71,7 @@ exports.update = (req, res) => {
                 });
             } else {
                 res.send({
-                    message: `Cannot update Tutorial with id=${id}`
+                    message: `Tutorial with id=${id} was updated`
                 });
             }
         })
