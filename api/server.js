@@ -4,8 +4,6 @@ const cors = require("cors");
 
 const app = express();
 
-const tutorials = require("./routes/tutorial.routes");
-
 const corsOptions = {
     origin: "http://localhost:8081"
 };
